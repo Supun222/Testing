@@ -2,9 +2,12 @@ class Test{
 	
 	public static void main(String args[]){
 	
-		System.out.println(Supun.print("Supun"));
-		System.out.println(Dilumi.print("Dilumi"));
-		System.out.println(PK.print("PK"));
+		Supun SupunS = new Supun();
+		Dilumi DilumiD = new Dilumi();
+		PK PKK = new PK();
+		System.out.println(SupunS.print("Supun"));
+		System.out.println(DilumiD.print("Dilumi"));
+		PKK.print("PK");
 	
 	}
 
